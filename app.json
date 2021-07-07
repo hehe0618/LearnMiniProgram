@@ -1,7 +1,33 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/abuout"
+    "pages/about/abuout",
+    "pages/category/category"
   ],
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "window": {
+    "navigationBarBackgroundColor": "#ff577a",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#ff577a",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabbar/home.png",
+        "selectedIconPath": "assets/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "assets/tabbar/category.png",
+        "selectedIconPath": "assets/tabbar/category_active.png"
+      }
+    ]
+  }
 }
